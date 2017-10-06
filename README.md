@@ -37,16 +37,16 @@ logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
 
 
 ```
-## Right click on Application.java file and run as Java Application
+### 6. Right click on Application.java file and run as Java Application
 
 ## Once Sprint Boot Application will be started successfully then we 
 can call following Endpoints by using POSTMAN
 
-## To get list of books call following endpoint with GET Request
+### 7. To get list of books call following endpoint with GET Request
 ```
   http://localhost:8080/bookservice/books
 ```
-### To Create New Book use following url with POST Request
+### 8.To Create New Book use following url with POST Request
 ```
   http://localhost:8080/bookservice/books
 ```
@@ -63,11 +63,11 @@ can call following Endpoints by using POSTMAN
   }
 
 ```
-### To get a particular book, use following url with `GET` request type in postman
+### 9.To get a particular book, use following url with `GET` request type in postman
 ```
   http://localhost:8080/bookservice/books/<id>
 ```
-### To update Book in database, use following url with `PUT` request type in postman
+### 10.To update Book in database, use following url with `PUT` request type in postman
 ```
 	http://localhost:8080/bookservice/books/<id>
 ```
@@ -84,7 +84,7 @@ can call following Endpoints by using POSTMAN
     "price": 240
   }
 ```
-### To delete a particular Book from database, use following url with `DELETE` request type in postman
+### 11.To delete a particular Book from database, use following url with `DELETE` request type in postman
 ```
   http://localhost:8080/bookservice/books/<id>
 ```
