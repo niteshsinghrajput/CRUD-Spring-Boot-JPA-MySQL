@@ -63,12 +63,28 @@ can call following Endpoints by using POSTMAN
   }
 
 ```
-### 7. To get a particular book, use following url with `GET` request type in postman
+### To get a particular book, use following url with `GET` request type in postman
 ```
   http://localhost:8080/bookservice/books/<id>
 ```
+### To update Book in database, use following url with `PUT` request type in postman
+```
+	http://localhost:8080/bookservice/books/<id>
+```
+### set content type as in header as `application/json`
+### set request body as raw with JSON payload
 
-### 8. To delete a particular Book from database, use following url with `DELETE` request type in postman
+```
+ {
+    "name": "C++",
+    "author": "Nitesh",
+    "publication": "Rajput Publication",
+    "category": "Computer Programming",
+    "pages": 1500,
+    "price": 240
+  }
+```
+### To delete a particular Book from database, use following url with `DELETE` request type in postman
 ```
   http://localhost:8080/bookservice/books/<id>
 ```
